@@ -35,11 +35,9 @@ print(", ".join(results))
     
                #Q5 Write a program that takes input an integer number and print all of its Divisors. Object:
 num = int(input("Enter a number: "))
-divisors = []
 for i in range(1, num+1):
     if num % i == 0:
-        divisors.append(i)
-print(f"The divisors of {num} are: {divisors}")
+          print(i)       
                       ############################QUESTION END#########################################
 
              #Q6 Write a program that takes input two integer numbers and prints all the common divisors. For example if numbers entered are 100 and 80
